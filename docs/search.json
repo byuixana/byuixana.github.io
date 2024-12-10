@@ -1,0 +1,122 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Your Name’s CV",
+    "section": "",
+    "text": "[Your Desired Job Title or Professional Identity]"
+  },
+  {
+    "objectID": "resume.html#profile",
+    "href": "resume.html#profile",
+    "title": "Your Name’s CV",
+    "section": "Profile",
+    "text": "Profile\n[Insert a brief, professional summary about yourself here, focusing on your skills, experiences, or interests relevant to your desired job role.]"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Your Name’s CV",
+    "section": "Education",
+    "text": "Education\n[Expected Graduation or Completed Date]\n[Degree Title], [University Name], [Location]\n- Minor/Specialization: [Optional Details] - Relevant Courses or Focus Areas: [Optional Details]"
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Your Name’s CV",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n[Job Title]\n[Company Name], [Location]\n[Start Date] - [End Date or Present] - [Brief description of your responsibilities or achievements in this role.] - [Another point showcasing a skill, achievement, or task.]\n\n\n[Job Title]\n[Company Name], [Location]\n[Start Date] - [End Date or Present] - [Brief description of your responsibilities or achievements in this role.] - [Another point showcasing a skill, achievement, or task.]\n\n\n[Optional Additional Role]\n[Company Name], [Location]\n[Start Date] - [End Date or Present] - [Brief description of your responsibilities or achievements in this role.]"
+  },
+  {
+    "objectID": "resume.html#volunteer-experience",
+    "href": "resume.html#volunteer-experience",
+    "title": "Your Name’s CV",
+    "section": "Volunteer Experience",
+    "text": "Volunteer Experience\n\n[Role Title]\n[Organization Name], [Location]\n[Start Date] - [End Date] - [Brief description of your volunteer activities or contributions.]\n\n\n[Role Title]\n[Organization Name], [Location]\n[Start Date] - [End Date] - [Brief description of your volunteer activities or contributions.]"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Your Name’s CV",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: [e.g., Fluent in Spanish, English, and French].\nTechnical Skills: [e.g., Excel, R, Python, SQL].\nKey Competencies: [e.g., Management, Leadership, Strategic Thinking].\nSpecializations: [e.g., Financial Modeling, Data Visualization]."
+  },
+  {
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
+    "title": "Your Name’s CV",
+    "section": "Certifications",
+    "text": "Certifications\n\n[Certification Name], Issued [Date]\n[Certification Name], Issued [Date]\n\n\nLast updated: March 1400"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nSample Projects Overview\n\nProject 1: Data Visualization and Reporting\n\nDeveloped interactive dashboards to visualize key business metrics and trends.\nAutomated data cleaning and integration processes to streamline reporting workflows.\nCollaborated with stakeholders to ensure insights were actionable and aligned with business goals.\n\n\n\nproject 1 name here\n\n\nProject 2: Predictive Modeling\n\nBuilt machine learning models to forecast customer demand with improved accuracy.\nIntegrated predictive insights into decision-making processes, reducing stockouts and excess inventory.\nConducted sensitivity analysis to assess the impact of key variables on predictions.\n\n\n\nproject 2 name here\n\n\nProject 3: Time Series Analysis\n\nAnalyzed historical sales data to identify seasonal patterns and trends.\nDesigned and implemented time series forecasting models to predict future sales performance.\nProvided actionable recommendations to optimize promotional strategies and inventory planning.\n\n\n\nproject 3 name here\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Project title here",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Projects",
+      "project 2 name"
+    ]
+  },
+  {
+    "objectID": "instructions_history/instrcutions_startingwithemptyrepo.html",
+    "href": "instructions_history/instrcutions_startingwithemptyrepo.html",
+    "title": "Albert Einstein's Data Science Portfolio",
+    "section": "",
+    "text": "This are notes I use when building this portfolio from an empty repository.\nPortfolio template steps 1. Video to create the github repository with readme.md file, and how to create r studio project a. The r studio project created the .gitignore and Portfolio_Template.Rproj files i. This seem to have settings required for r studio to connect to github. 2. Adding the required files in order for the site to be built a. _quarto.yml b. Index.qmd c. styles.css (this file is empty but reference in the _quarto.yml) d. This files are not needed but use in the _quarto.yml for a png i. Images (folder) 3. Adding a new tab to the portfolio. I’m adding a resume a. In the _quarto.yml file add, under the navbar, and this two lines of code - text: “My Resume” file: resume.qmd b. Add/create the qmd file for your resume to the root folder i. Render the resume.qmd file c. Update yml links i. Build &gt; render website ii. Or run this code in the console or terminal: quarto render –execute _quarto.yml d. Push to github and the site should be updated with your new tab. 4. Adding python code files via R studio. a. Create python env for this project i. Or load if already one. Most likely not ii. Check to see correct env is loaded b. Install needed python libraries i. Or run code to install libraries in requirements.txt file c. Run a qmd with python code and render it (do other steps when adding new files to the site) d. Create/update the requirements.txt file e. Push to git hub\nPart 1. 1. In your repository page, create a new repository a. Not using a template for this one b. Choose owner, for this one should just be you. c. Name your repository d. Click on Add a README file and hit Create repository e. Only file currently is the README.md file 2. Creating new project in R studio for your new repository a. On the main github page for your repository. Click on the green rectangle for code and copy the URL b. Create new project in R-studio i. Open up r studio, and create a new project ii. Click on Version Control - then on Git and paste the url in the Repository URL: section iii. Under Create project as subdirectory, make sure your path is in your hardrive. iv. Create Project c. This steps should have created the .gitignore, Portfolio_template, and two normally hidden folders (.git and .Rproj.user [.Rproj.user folder (this doesn’t affect your files, but clears RStudio’s cache for the project).] ) i. .gitignore settings 1. The non-working project ignores files like .Rhistory, .RData, and .Ruserdata. These are harmless and irrelevant for website rendering or Build tab visibility. 2. This is interesting to know this files are ignore because I use em all the time so it pays to research this. ii. Part 2 1. Add the _quarto.yml, index.qmd and styles.css files need to build the website. a. Other files can be added but this are the only ones needed for this template i. You can edit as much as you want here and add anything you want. I’m just showing what is required for this template to be built. Limit editing if unfamiliar with github pages. b. Render Website i. Run this command in the console 1. quarto::quarto_render() 2. restart r studio. (this code can also be ran in an r chunk as well) ii. The goal of this command is to let r studio know this is a _site and gives the option to build site and render website (option next to git) c. Render the website using the build option in r studio i. After using the manual render site, github should now have an option to build &gt; render website. 1. Render website use this code quarto::quarto_render()\n\nPush to github\n\n\nOnce you render the index file, push to github ( git add . —- git commit -m”update” —- git push)\nOn the github repository, go to settings/pages and under branch\nSet Branch to main and set folder to /docs and hit save\n\n\nOnce you hit save, github will know to deploy the site.\n\n\nIf done correctly the site should be live.\n\nPart 3 Not to complicated\nPart 4. Working with Python code, enviroment, and requirements.txt files in R-studio step 1. Check what environment is active (likely a global environment) library(reticulate) py_config()\nstep1.7: create virtual env if needed (basically needed in any new device) library(reticulate) # I wonder if the line below can stand alone virtualenv_create(“env”) # env is the name which can be anything, but will use env for instructions\nstep 1.5: load env for project if needed, so use code from step 1 to make sure the new env is loaded. If not use this to load the new env. Again replace env with the actual name you gave your env. library(reticulate) use_virtualenv(“env”, required = TRUE)\nStep 2. Install python libraries library(reticulate) py_install(c(“pandas”, “numpy”, “matplotlib”))\nstep 2.1: run python code/file and render python files\nStep 3 : creates/updates the requirements.txt file shell(“pip freeze &gt; requirements.txt”)\nPart 5\nStep 1: Adding tab with a sidebar for multiple qmd files - add tab to navbar and sidebar code to _quarto.yml Step 2: Add qmd for the main tab, add folder with qmd files for main tab\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Albert Einstein",
+    "section": "",
+    "text": "Introduction\nPortfolio Introduction\n\nport intro here but remove for instructions -\n\n\n\n\nInstructions to editing this Portfolio\nThe main goal of this instructions is focused around editing the _quarto.yml and the process of pushing to github for the site to render. If you follow the steps below on adding new files and editing the _quarto.yml your site should always render. I do not focus to much on the QMD details as that is one of the main concepts we have been working on in class. So you can edit the QMD files as you see fit, and as long as they render locally, they will be published to the site.\nThe following are instructions to edit this portfolio separated into sections. Each section is intended to show how to add and or edit different parts of the portfolio.\n\n\nUsing this template and or cloning to a new device\nStep 1\n- Go to the template, and select “Use as template.” - Name it and set it to public. - Go to Settings &gt; Pages, and configure:\n- Branch: main\n- Folder: docs\n- Hit save and watch it go live.\nStep 2\n- Create the R project for this portfolio.\n- Make an edit, render the site, and push to make sure you are connected to your portfolio:\ngit remote show origin (use in R console or RStudio)\n- Once you push to GitHub and the site is successfully built using GitHub Pages, you have successfully created your portfolio.\nStep 3\n- I have steps with videos on how to add new tabs and edit the YAML file.\n- I mostly focused on the YAML code and preparing the website. The main thing about your portfolio is to show what you are capable of. This portfolio is all set up for you to do as you want with your .qmd files, and once rendered locally, they will push to the site. So go all out.\n\n\nStep 4 (if using Python code, optional)\nIf you are not planning on using Python code, you can do this later. If you are planning on using Python code, then do the following:\n\nOpen the python.qmd file and remove the # from the ```{python} so RStudio recognizes the Python chunks.\n\nIn the instructions for the video “Working with Python…part 1,” follow and only do steps 1 to 1.7 (watch the first video). Watch the beginning of the second video until I get to the part about installing Python code, just so you understand more about environments and Python code.\n\nOnce you have done steps 1 to 1.9 and have an environment successfully loaded, run the following code to install the Python libraries in the requirements.txt file:\n\nCheck for environment loaded:\nlibrary(reticulate)\npy_config()\nLoad environment if needed:\nlibrary(reticulate)\nuse_virtualenv(\"env\", required = TRUE)\nRun to install Python libraries in requirements.txt file:\nshell(\"pip install -r requirements.txt\")\n\nRender the python.qmd file, and you should be set to run Python code within RStudio.\nWhen installing new Python libraries (edit library names as needed):\nlibrary(reticulate)\npy_install(c(\"pandas\", \"numpy\", \"matplotlib\"))\nAfter installing new Python libraries, update the requirements.txt file:\nshell(\"pip freeze &gt; requirements.txt\")\n\n\n\n\n\n\n\nAdding a New Tab\nAdding a new tab to the portfolio. I’m adding a resume.\n\nIn the _quarto.yml file add, under the navbar, and this two lines of code\ntext: \"My Resume\"\nfile: resume.qmd\nAdd/create the resume.qmd file to the root folder\n\nRender the resume.qmd file\n\nUpdate yml links\n\nBuild &gt; render website\n\nPush to GitHub and the site should be updated with your new tab.\n\n\n\n\n\nAdding a Project Tab with Multiple Files\nStep 1:\nAdding a tab with a sidebar for multiple QMD files\n- Add tab code to navbar and sidebar code to _quarto.yml\nStep 2:\n- Add QMD for the main tab\n- Add a folder with QMD files for the main tab\n\n\n\n\nWorking with Python Code & Environment in R-Studio\nPart 4. Working with Python code, environment, and requirements.txt files in R-Studio\nStep 1: Check what environment is active (likely a global environment)\nlibrary(reticulate)\npy_config()\nStep 1.5: Create a virtual environment if needed (basically needed in any new device)\nlibrary(reticulate)\nvirtualenv_create(\"env\") # env can be any name you want\nStep 1.7: Load environment for the project if needed. Use the code from Step 1 to make sure the new environment is loaded. If not, use this to load the new environment. Replace env with the actual name of your environment.\nlibrary(reticulate)\nuse_virtualenv(\"env\", required = TRUE)\nStep 2: Install Python libraries\nlibrary(reticulate)\npy_install(c(\"pandas\", \"numpy\", \"matplotlib\"))\nStep 2.1: Run Python code/file and render Python files\nStep 3: Create/update the requirements.txt file\nshell(\"pip freeze &gt; requirements.txt\")\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project title here",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Projects",
+      "Project 1 name"
+    ]
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Project title here",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Projects",
+      "project 3 name"
+    ]
+  },
+  {
+    "objectID": "python.html",
+    "href": "python.html",
+    "title": "Python QMD Example",
+    "section": "",
+    "text": "This is an example of how to use Python code in a R Markdown document. We will use the reticulate package to run Python code in this R Markdown document.\nTo a void issues when first using this template, or cloning to a new device. The python code chunks have been commented out so it doesn’t trigger the jupyter notebook. Triggering the jupyter notebook will require a python environment, and the required jupyter notebook libraries. Downloading this libraries can be a hassle if not using python. When using Python you will have to follow the steps to make sure your project is properly set up to run python code in R-studio.\n#```{python} # Import common libraries import pandas as pd import numpy as np import matplotlib.pyplot as plt"
+  },
+  {
+    "objectID": "python.html#python-example-with-common-libraries",
+    "href": "python.html#python-example-with-common-libraries",
+    "title": "Python QMD Example",
+    "section": "",
+    "text": "This is an example of how to use Python code in a R Markdown document. We will use the reticulate package to run Python code in this R Markdown document.\nTo a void issues when first using this template, or cloning to a new device. The python code chunks have been commented out so it doesn’t trigger the jupyter notebook. Triggering the jupyter notebook will require a python environment, and the required jupyter notebook libraries. Downloading this libraries can be a hassle if not using python. When using Python you will have to follow the steps to make sure your project is properly set up to run python code in R-studio.\n#```{python} # Import common libraries import pandas as pd import numpy as np import matplotlib.pyplot as plt"
+  }
+]
