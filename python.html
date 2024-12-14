@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Alexandra Green’s CV – Alexandra Green's Data Science Portfolio</title>
+<title>Python QMD Example – Alexandra Green’s Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resume.html" aria-current="page"> 
+    <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">My Resume</span></a>
   </li>  
   <li class="nav-item">
@@ -120,20 +120,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#alexandra-green" id="toc-alexandra-green" class="nav-link active" data-scroll-target="#alexandra-green">Alexandra Green</a>
-  <ul class="collapse">
-  <li><a href="#currently" id="toc-currently" class="nav-link" data-scroll-target="#currently">Currently</a>
-  <ul class="collapse">
-  <li><a href="#specialized-in" id="toc-specialized-in" class="nav-link" data-scroll-target="#specialized-in">Specialized in</a></li>
-  <li><a href="#interests" id="toc-interests" class="nav-link" data-scroll-target="#interests">Interests</a></li>
-  </ul></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a>
-  <ul class="collapse">
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  </ul></li>
-  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">Certifications</a></li>
-  </ul></li>
+  <li><a href="#python-example-with-common-libraries" id="toc-python-example-with-common-libraries" class="nav-link active" data-scroll-target="#python-example-with-common-libraries">Python Example with Common Libraries</a></li>
+  <li><a href="#create-a-sample-dataframe" id="toc-create-a-sample-dataframe" class="nav-link" data-scroll-target="#create-a-sample-dataframe">Create a sample DataFrame</a></li>
+  <li><a href="#display-the-first-few-rows" id="toc-display-the-first-few-rows" class="nav-link" data-scroll-target="#display-the-first-few-rows">Display the first few rows</a></li>
   </ul>
 </nav>
     </div>
@@ -142,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Alexandra Green’s CV</h1>
+<h1 class="title">Python QMD Example</h1>
 </div>
 
 
@@ -159,43 +148,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="alexandra-green" class="level1">
-<h1>Alexandra Green</h1>
-<p>Software Engineer</p>
-<div id="webaddress">
-<p><a href="gre22007@byui.edu">gre22007@byui.edu</a> | <a href="">Alexandra Green</a></p>
-</div>
-<section id="currently" class="level2">
-<h2 class="anchored" data-anchor-id="currently">Currently</h2>
-<p>Student at BYU-I</p>
-<section id="specialized-in" class="level3">
-<h3 class="anchored" data-anchor-id="specialized-in">Specialized in</h3>
-<p>Backend development and software design</p>
+<!-- 
+IMPORTANT before running python code in r studio. Make sure you set your project to allow usage of python code in R studio. Follow the instructions provided. The second video on how to use this template will show you how to set up your project to run python code in R studio.
+-->
+<section id="python-example-with-common-libraries" class="level2">
+<h2 class="anchored" data-anchor-id="python-example-with-common-libraries">Python Example with Common Libraries</h2>
+<p>This is an example of how to use Python code in a R Markdown document. We will use the <code>reticulate</code> package to run Python code in this R Markdown document.</p>
+<p>To a void issues when first using this template, or cloning to a new device. The python code chunks have been commented out so it doesn’t trigger the jupyter notebook. Triggering the jupyter notebook will require a python environment, and the required jupyter notebook libraries. Downloading this libraries can be a hassle if not using python. When using Python you will have to follow the steps to make sure your project is properly set up to run python code in R-studio.</p>
+<p>#```{python} # Import common libraries import pandas as pd import numpy as np import matplotlib.pyplot as plt</p>
 </section>
-<section id="interests" class="level3">
-<h3 class="anchored" data-anchor-id="interests">Interests</h3>
-<p>Webscraping, APIs, React, Trees, and Tries</p>
+<section id="create-a-sample-dataframe" class="level1">
+<h1>Create a sample DataFrame</h1>
+<p>data = pd.DataFrame({ “x”: np.linspace(0, 10, 100), “y”: np.sin(np.linspace(0, 10, 100)) })</p>
 </section>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><code>2022 - Current</code> <strong>Brigham Young University-Idaho, Rexburg</strong></p>
-</section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">Awards</h2>
-<p><code>2012</code> Secretary, <em>Society of Women Engineers</em>, Rexburg, ID</p>
-<section id="experience" class="level3">
-<h3 class="anchored" data-anchor-id="experience">Experience</h3>
-<p><code>May 2024 - August 2024</code> Software Engineering Intern L3Harris Technologies, Inc. Palm Bay, FL</p>
-<p><code>January 2023 - now</code> Senior TA BYU-I Religion Department Rexburg, ID</p>
-</section>
-</section>
-<section id="certifications" class="level2">
-<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
-<p><code>Sepetember 2022 - April 2024</code> Computer Programming Certificate Brigham Young University-Idaho</p>
+<section id="display-the-first-few-rows" class="level1">
+<h1>Display the first few rows</h1>
+<p>data.head()</p>
+<p>#```</p>
+<p>#```{python} # Plot the data plt.plot(data[“x”], data[“y”], label=“sin(x)”) plt.xlabel(“x”) plt.ylabel(“y”) plt.title(“Plot of sin(x)”) plt.legend() plt.show()</p>
+<p>#```</p>
+<p>step 1. Check what environment is active</p>
+<p>library(reticulate)</p>
+<p>py_config()</p>
+<p>step 1.5: load env for project if needed</p>
+<p>library(reticulate)</p>
+<p>use_virtualenv(“env”, required = TRUE)</p>
+<p>step1.7: create virtual env if not needed (basically needed in any new device)</p>
+<p>library(reticulate) # I wonder if the line below can stand lsone</p>
+<p>virtualenv_create(“env”) # env is the name which can be anything, but will use env for instructions</p>
+<p>Step 2. Install python libraries</p>
+<p>library(reticulate)</p>
+<p>py_install(c(“pandas”, “numpy”, “matplotlib”))</p>
+<p>step 2.1: run python code and render python files</p>
+<p>Step 3 : creates/updates the requirements.txt file</p>
+<p>shell(“pip freeze &gt; requirements.txt”)</p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
