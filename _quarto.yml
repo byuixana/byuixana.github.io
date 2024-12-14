@@ -13,10 +13,10 @@ website:
 
   page-footer: 
     border: true
-    left: "Albert Einstein 1400©"
+    left: "Alexandra Green 2024©"
     right: 
       - icon: linkedin
-        href: https://www.linkedin.com/
+        href: https://www.linkedin.com/in/alexandra-green-aa8b88298/
 
 
   navbar:
