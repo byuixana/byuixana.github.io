@@ -1,73 +1,18 @@
-## Instructions for Setting Up and Using the Repository
+# BYUI DS Portfolio Template
+## Building a Quarto Portfolo
 
-This is a Portfolio template, and the instructions are mostly around working with the yml and setting up the website portfolio to be live.
-This steps would also show you h0ow to manage and constantly update your portfolio. The QMD files are mostly empty, but you can add anything you want to them as the goal of this portfolio is to showcase what you can do. 
+A template for a portfolio developed with Quarto and hosted on GitHub.
 
+This is all configured so you only need to edit the source files in Quarto (.qmd). The website is generated and hosted automatically by GitHub.
 
-## the following is a short list of what is cover in the index.qmd file 
-1. **Using the Template and Cloning the Repository**
-   - Select “Use as template,” name it, and set it to public.
-   - Configure GitHub Pages:
-     - **Branch**: main
-     - **Folder**: docs
-     - Save and verify the site goes live.
+## Using this template
 
-2. **Setting Up the R Project**
-   - Create an R project for the portfolio.
-   - Verify the connection to the repository:
-     ```
-     git remote show origin
-     ```
-   - Push changes to GitHub to build the site using GitHub Pages.
+1. Click on green button "Use this Tempalte" -> "Create a new Repo"
 
-3. **Editing and Customizing**
-   - Update `.qmd` files to showcase your portfolio.
-   - Render locally and push changes to publish updates.
+1. Choose a name for your repository
 
-4. **Optional: Working with Python Code**
-   - Enable Python chunks in `python.qmd` by removing the `#` from `{python}`.
-   - Set up Python environment:
-     - Check environment:
-       ```R
-       library(reticulate)
-       py_config()
-       ```
-     - Create and load a virtual environment:
-       ```R
-       virtualenv_create("env")
-       use_virtualenv("env", required = TRUE)
-       ```
-   - Install Python libraries:
-     ```R
-     shell("pip install -r requirements.txt")
-     py_install(c("pandas", "numpy", "matplotlib"))
-     ```
-   - Update the `requirements.txt` file:
-     ```R
-     shell("pip freeze > requirements.txt")
-     ```
-   - Render `python.qmd` to validate Python code execution in RStudio.
+1. Important: check 'Include all branches' when creating the repository (because we will need the gh-pages branch to host the website).
 
-5. **Adding New Tabs**
-   - Add a new tab (e.g., "Resume") by updating `_quarto.yml`:
-     ```yaml
-     text: "My Resume"
-     file: resume.qmd
-     ```
-   - Create and render the `resume.qmd` file.
-   - Push changes to update the site.
+1. Once your repo is created, remember to update the links to your GitHub repo in _quarto.yml, replacing every instance 'your_name'.
 
-6. **Adding a Project Tab with Multiple Files**
-   - Update `_quarto.yml` with navbar and sidebar code.
-   - Create a folder with `.qmd` files for the tab.
-   - Render and push to update the site.
-
-7. **Working with Python Code and Environment in RStudio**
-   - Check the active Python environment:
-     ```R
-     library(reticulate)
-     py_config()
-     ```
-   - Install and manage Python libraries as needed.
-   - Render `.qmd` files containing Python code.
-
+1. The first time you publish to your repo use this command line string `quarto publish gh-pages` in the vs code terminal.
