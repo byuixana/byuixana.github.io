@@ -7,69 +7,6 @@ website:
   back-to-top-navigation: true
   repo-url: https://github.com/byuixana/byuixana.github.io
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
-  
----
-layout: cv
-title: Alexandra Green's CV
----
-# Alexandra Green
-Software Engineer
-
-<div id="webaddress">
-<a href="gre22007@byui.edu">gre22007@byui.edu</a>
-<a href="">Alexandra Green</a>
-</div>
-
-
-## Currently
-
-Student at BYU-I
-
-### Specialized in
-
-Backend development and software design
-
-
-### Interests
-
-Webscraping, APIs, React, Trees, and Tries
-
-
-## Education
-
-`2022 - Current`
-__Brigham Young University-Idaho, Rexburg__
-
-## Awards
-
-`2012`
-Secretary, *Society of Women Engineers*, Rexburg, ID
-
-### Experience
-`May 2024 - August 2024`
-Software Engineering Intern
-L3Harris Technologies, Inc.
-Palm Bay, FL
-
-`January 2023 - now`
-Senior TA
-BYU-I Religion Department
-Rexburg, ID
-
-## Occupation
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
-  page-footer: 
-    border: true
-    left: "Alexandra Green 2024©"
-    right: 
-      - icon: linkedin
-        href: https://www.linkedin.com/in/alexandra-green-aa8b88298/
-
 
   navbar:
     background: primary
@@ -101,6 +38,12 @@ Last updated: May 2013 -->
         #continue the pattern if you need more links
         #copy paste from title and keep it indented to sidebar to add additonal sidebar navigation for other pages
 
+    page-footer: 
+    border: true
+    left: "Alexandra Green 2024©"
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alexandra-green-aa8b88298/
 
 
 format:  

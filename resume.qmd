@@ -1,71 +1,52 @@
 ---
-title: Your Name's CV
-format: html
+layout: cv
+title: Alexandra Green's CV
 ---
-
-
-[Your Desired Job Title or Professional Identity]  
+# Alexandra Green
+Software Engineer
 
 <div id="webaddress">
-<a href="mailto:[Your Email]">[Your Email]</a> |
-<a href="[Your LinkedIn URL]">LinkedIn</a> |
-<a href="[Your GitHub or Portfolio URL]">Portfolio</a>
+<a href="gre22007@byui.edu">gre22007@byui.edu</a>
+| <a href="">Alexandra Green</a>
 </div>
 
-## Profile
 
-[Insert a brief, professional summary about yourself here, focusing on your skills, experiences, or interests relevant to your desired job role.]
+## Currently
+
+Student at BYU-I
+
+### Specialized in
+
+Backend development and software design
+
+
+### Interests
+
+Webscraping, APIs, React, Trees, and Tries
+
 
 ## Education
 
-`[Expected Graduation or Completed Date]`  
-__[Degree Title]__, [University Name], [Location]  
-- Minor/Specialization: [Optional Details]
-- Relevant Courses or Focus Areas: [Optional Details]
+`2022 - Current`
+__Brigham Young University-Idaho, Rexburg__
 
-## Professional Experience
+## Awards
 
-### [Job Title]
-__[Company Name], [Location]__  
-`[Start Date] - [End Date or Present]`
-- [Brief description of your responsibilities or achievements in this role.]
-- [Another point showcasing a skill, achievement, or task.]
+`2012`
+Secretary, *Society of Women Engineers*, Rexburg, ID
 
-### [Job Title]
-__[Company Name], [Location]__  
-`[Start Date] - [End Date or Present]`
-- [Brief description of your responsibilities or achievements in this role.]
-- [Another point showcasing a skill, achievement, or task.]
+### Experience
+`May 2024 - August 2024`
+Software Engineering Intern
+L3Harris Technologies, Inc.
+Palm Bay, FL
 
-### [Optional Additional Role]
-__[Company Name], [Location]__  
-`[Start Date] - [End Date or Present]`
-- [Brief description of your responsibilities or achievements in this role.]
-
-## Volunteer Experience
-
-### [Role Title]
-__[Organization Name], [Location]__  
-`[Start Date] - [End Date]`
-- [Brief description of your volunteer activities or contributions.]
-
-### [Role Title]
-__[Organization Name], [Location]__  
-`[Start Date] - [End Date]`
-- [Brief description of your volunteer activities or contributions.]
-
-## Skills
-
-- Languages: [e.g., Fluent in Spanish, English, and French].
-- Technical Skills: [e.g., Excel, R, Python, SQL].
-- Key Competencies: [e.g., Management, Leadership, Strategic Thinking].
-- Specializations: [e.g., Financial Modeling, Data Visualization].
+`January 2023 - now`
+Senior TA
+BYU-I Religion Department
+Rexburg, ID
 
 ## Certifications
-
-- [Certification Name], Issued [Date]
-- [Certification Name], Issued [Date]
-
----
-
-_Last updated: March 1400_
+`Sepetember 2022 - April 2024`
+Computer Programming Certificate
+Brigham Young University-Idaho
