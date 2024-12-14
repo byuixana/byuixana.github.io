@@ -2,10 +2,10 @@ project:
   type: website
   output-dir: docs # renders htmls to docs folder
 website:
-  title: "Alexandra Green's Data Science Portfolio"
+  title: "Albert Einstein's Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/byuixana/byuixana.github.io
+  repo-url: https://github.com/1Ramirez7/Portfolio_Template
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
   
 
@@ -13,10 +13,10 @@ website:
 
   page-footer: 
     border: true
-    left: "Alexandra Green 2024©"
+    left: "Albert Einstein 1400©"
     right: 
       - icon: linkedin
-        href: https://www.linkedin.com/in/alexandra-green-aa8b88298/
+        href: https://www.linkedin.com/
 
 
   navbar:
